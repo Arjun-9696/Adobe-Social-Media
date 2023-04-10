@@ -79,7 +79,7 @@ const Navbar = () => {
                                 }}
                             >
                                 <MenuItem style={{ display: "flex", flexDirection: "column" }} onClick={handleCloseNavMenu}>
-                                    <Link to="/userform" style={{ textDecoration: "none", paddingBottom: "10px" }}><Typography textAlign="left">User</Typography></Link>
+                                    <Link to="/" style={{ textDecoration: "none", paddingBottom: "10px" }}><Typography textAlign="left">User</Typography></Link>
                                     <Link to="/postform" style={{ textDecoration: "none", paddingBottom: "10px" }}><Typography textAlign="left">Post</Typography></Link>
                                     <Link to="/userlist" style={{ textDecoration: "none", paddingBottom: "10px" }}><Typography textAlign="left">User List</Typography></Link>
                                     <Link to="/postlist" style={{ textDecoration: "none", paddingBottom: "10px" }}><Typography textAlign="left">Post List</Typography></Link>
@@ -108,7 +108,7 @@ const Navbar = () => {
                             LOGO
                         </Typography>
                         <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' , gap:"30px"}  }}>
-                            <Link to="/userform" style={{ textDecoration: "none" }}>
+                            <Link to="/" style={{ textDecoration: "none" }}>
                                 <Button
                                     onClick={handleCloseNavMenu}
                                     sx={{ my: 2, color: 'white', display: 'block' }}

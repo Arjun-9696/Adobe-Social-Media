@@ -13,7 +13,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/userform" element={<UserForm />} />
+        <Route path="/" element={<UserForm />} />
         <Route path="/postform" element={<PostForm />} />
         <Route path="/postlist" element={<PostList />} />
         <Route path="/useranalytics" element={<UserAnalytics />} />
